@@ -23,6 +23,10 @@
 		0C116EA52949EEA8005D4B8C /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C116EA42949EEA8005D4B8C /* TransactionList.swift */; };
 		0C116EA82949F407005D4B8C /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = 0C116EA72949F407005D4B8C /* Collections */; };
 		0C116EAB2949F5B9005D4B8C /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 0C116EAA2949F5B9005D4B8C /* SwiftUICharts */; };
+		0CAA5456294B20090018EC1D /* TransactionDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAA5455294B20090018EC1D /* TransactionDetailRow.swift */; };
+		0CAA5458294B210B0018EC1D /* TransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAA5457294B210B0018EC1D /* TransactionView.swift */; };
+		0CAA545A294B2D4C0018EC1D /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAA5459294B2D4C0018EC1D /* CategoryRow.swift */; };
+		0CAA545C294B2FC00018EC1D /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAA545B294B2FC00018EC1D /* CategoriesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		0C116EA02949E025005D4B8C /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
 		0C116EA22949E760005D4B8C /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 		0C116EA42949EEA8005D4B8C /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
+		0CAA5455294B20090018EC1D /* TransactionDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDetailRow.swift; sourceTree = "<group>"; };
+		0CAA5457294B210B0018EC1D /* TransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionView.swift; sourceTree = "<group>"; };
+		0CAA5459294B2D4C0018EC1D /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		0CAA545B294B2FC00018EC1D /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,10 @@
 				0C116E9A2949DB0D005D4B8C /* TransactionRow.swift */,
 				0C116EA22949E760005D4B8C /* RecentTransactionList.swift */,
 				0C116EA42949EEA8005D4B8C /* TransactionList.swift */,
+				0CAA5455294B20090018EC1D /* TransactionDetailRow.swift */,
+				0CAA5457294B210B0018EC1D /* TransactionView.swift */,
+				0CAA5459294B2D4C0018EC1D /* CategoryRow.swift */,
+				0CAA545B294B2FC00018EC1D /* CategoriesView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,12 +228,16 @@
 				0C116E902949D525005D4B8C /* Extensions.swift in Sources */,
 				0C116E922949D5C9005D4B8C /* ContentView.swift in Sources */,
 				0C116E862949D3B5005D4B8C /* Persistence.swift in Sources */,
+				0CAA545A294B2D4C0018EC1D /* CategoryRow.swift in Sources */,
 				0C116EA52949EEA8005D4B8C /* TransactionList.swift in Sources */,
 				0C116EA12949E025005D4B8C /* TransactionListViewModel.swift in Sources */,
 				0C116E982949DA60005D4B8C /* PreviewData.swift in Sources */,
+				0CAA545C294B2FC00018EC1D /* CategoriesView.swift in Sources */,
+				0CAA5458294B210B0018EC1D /* TransactionView.swift in Sources */,
 				0C116E9B2949DB0D005D4B8C /* TransactionRow.swift in Sources */,
 				0C116E7D2949D3B0005D4B8C /* MyBudgetBuddyApp.swift in Sources */,
 				0C116E892949D3B5005D4B8C /* MyBudgetBuddy.xcdatamodeld in Sources */,
+				0CAA5456294B20090018EC1D /* TransactionDetailRow.swift in Sources */,
 				0C116EA32949E760005D4B8C /* RecentTransactionList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

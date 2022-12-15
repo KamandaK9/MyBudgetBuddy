@@ -67,7 +67,7 @@ final class TransactionListViewModel: ObservableObject {
 		print("accumulateTransactions")
 		guard !transactions.isEmpty else { return [] }
 		
-		let today = "01/12/2022".dateParsed() // Date()
+		let today = "02/17/2022".dateParsed() // Date()
 		let dateInterval = Calendar.current.dateInterval(of: .month, for: today)!
 		print("dateInterval", dateInterval)
 		
@@ -85,5 +85,16 @@ final class TransactionListViewModel: ObservableObject {
 		}
 		
 		return cumulativeSum
+	}
+	
+	func updateCategory(transaction: Transaction, category: Category) {
+		guard transaction.categoryId != category.id else { return }
+		
+		if let index = transactions.firstIndex(where: { $0.id == transaction.id }) {
+			var updatedTransaction = transactions[index]
+			updatedTransaction.categoryId = category.id
+			updatedTransaction.isEdited = true
+			transactions[index] = updatedTransaction
+		}
 	}
 }

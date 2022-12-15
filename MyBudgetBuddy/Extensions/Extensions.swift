@@ -22,7 +22,7 @@ extension DateFormatter {
 	static let normalDate: DateFormatter = {
 		print("Initializing DateFormatter")
 			let formatter = DateFormatter()
-		formatter.dateFormat = "dd/MM/yyyy"
+		formatter.dateFormat = "MM/dd/yyyy"
 		
 		return formatter
 	}()
